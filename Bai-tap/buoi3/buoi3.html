@@ -3,38 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
-
+    <title>Form</title>
+    <link rel="stylesheet" href="buoi3.css">
 </head>
 
 <body>
-    <form action="">
-        <div>
-            <label for="Ho">Họ:</label> <br>
-            <input type="text" id="Ho"> <br>
-            <label for="Ten">Tên:</label> <br>
-            <input type="text" id="Ten"> <br>
-            <label for="sdt">SĐT:</label> <br>
-            <input type="text" id="sdt"> <br>
-            <label for="email">Email:</label> <br>
-            <input type="text" id="email" placeholder="abc@gmail.com"> <br>
-        </div>
-        <div>
-            <span>Giới tính:</span>
-            <label for="nam">Nam</label>
-            <input type="radio" name="gender" id="nam">
-            <label for="nu">Nữ</label>
-            <input type="radio" name="gender" id="nu">
-            <label for="khac">Khác</label>
-            <input type="radio" name="gender" id="khac">
-        </div>
-        <div>
-            <label for="date">Ngày sinh:</label>
-            <input type="date" id="date"> <br><br>
-        </div>
-        <input type="button" value="Đăng Kí">
-
-    </form>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="Ho">Họ:</label> <br>
+                <input type="text" id="Ho"> <br>
+                <label for="Ten">Tên:</label> <br>
+                <input type="text" id="Ten"> <br>
+                <label for="sdt">SĐT:</label> <br>
+                <input type="text" id="sdt"> <br>
+                <label for="email">Email:</label> <br>
+                <input type="text" id="email" placeholder="abc@gmail.com"> <br>
+            </div>
+            <div>
+                <span>Giới tính:</span>
+                <label for="nam">Nam</label>
+                <input type="radio" name="gender" id="nam">
+                <label for="nu">Nữ</label>
+                <input type="radio" name="gender" id="nu">
+                <label for="khac">Khác</label>
+                <input type="radio" name="gender" id="khac">
+            </div>
+            <div>
+                <label for="date">Ngày sinh:</label>
+                <input type="date" id="date">
+            </div>
+            <div>
+                <label for="quoctich">Quốc tịch:</label>
+                <select name="quoctich" id="quoctich">
+                    <option value="Vietnam">Việt Nam</option>
+                    <option value="Hoaky">Hoa Kỳ</option>
+                    <option value="Nga">Nga</option>
+                    <option value="Dưc">Đức</option>
+                    <option value="Lao">Lào</option>
+                    <option value="Campuchia">Campuchia</option>
+                </select>
+            </div> <br> <br>
+            <input type="button" value="Đăng Kí">
+        </form>
+    </div>
 </body>
 
 </html>
